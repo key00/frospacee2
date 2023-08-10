@@ -24,6 +24,10 @@
     />
 
     <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
     <link href="assets/css/font-awesome-all.css" rel="stylesheet" />
     <link href="assets/css/flaticon.css" rel="stylesheet" />
     <link href="assets/css/owl.css" rel="stylesheet" />
@@ -34,13 +38,6 @@
     <link href="assets/css/color.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <!-- page wrapper -->
@@ -80,16 +77,16 @@
                         <a href="index.html">Home</a>
                       </li>
                       <li class="dropdown">
-                        <a href="index.html">Events</a>
+                        <a href="events.html">Events</a>
                       </li>
                       <li class="dropdown">
-                        <a href="index.html">Partnership</a>
+                        <a href="about.html">About Us</a>
                       </li>
                       <li class="dropdown">
                         <a href="index.html">Careers</a>
                       </li>
                       <li class="dropdown">
-                        <a href="index.html">Host an Event</a>
+                        <a href="create_event.html">Host an Event</a>
                       </li>
                     </ul>
                   </div>
@@ -97,8 +94,8 @@
               </div>
 
               <div class="btn-box">
-                <a href="" class="theme-btn-one">Login</a>
-                <a href="" class="sign-up-btn">Sign Up</a>
+                <a href="login.html" class="theme-btn-one">Login</a>
+                <a href="signup.html" class="sign-up-btn">Sign Up</a>
               </div>
             </div>
           </div>
@@ -180,550 +177,398 @@
       <!-- End Mobile Menu -->
 
       <!-- banner-section -->
-      <section
-        class="banner-section centred"
-        style="background-image: url(assets/images/hero-bg.jpg)"
-      >
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div
-              class="col-lg-10 col-md-12 col-sm-12 offset-lg-1 content-column"
-            >
-              <div class="content-box">
-                <h1>
-                  Frospacee is a leading e-ticketing website that connects users
-                  with a wide range of events and experiences in Canada. With a
-                  mission to enhance the event discovery and ticketing process,
-                  Frospacee provides a user-friendly platform where individuals
-                  can find, book, and enjoy various events conveniently
-                </h1>
 
-                <hr style="width: 60%; margin: 0 auto; color: #fff" />
-
-                <!-- <div class="form-inner">
-                  <form action="index.html" method="post">
-                    <div class="input-inner clearfix">
-                      <div class="form-group">
-                        <i class="icon-2"></i>
-                        <input
-                          type="search"
-                          name="name"
-                          placeholder="Search Keyword..."
-                          required=""
-                        />
-                      </div>
-                      <div class="form-group">
-                        <i class="icon-3"></i>
-                        <select class="wide">
-                          <option data-display="Select Location">
-                            Select Location
-                          </option>
-                          <option value="1">California</option>
-                          <option value="2">New York</option>
-                          <option value="3">Sun Francis</option>
-                          <option value="4">Shicago</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <i class="icon-4"></i>
-                        <select class="wide">
-                          <option data-display="Select Category">
-                            Select Category
-                          </option>
-                          <option value="1">Education</option>
-                          <option value="2">Restaurant</option>
-                          <option value="3">Real Estate</option>
-                          <option value="4">Home Appliances</option>
-                        </select>
-                      </div>
-                      <div class="btn-box">
-                        <button type="submit">
-                          <i class="icon-2"></i>Search
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                  <ul class="radio-select-box clearfix">
-                    <li>
-                      <div class="single-checkbox">
-                        <input
-                          type="radio"
-                          name="check-box"
-                          id="check1"
-                          checked=""
-                        />
-                        <label for="check1"><span></span>All</label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="single-checkbox">
-                        <input type="radio" name="check-box" id="check2" />
-                        <label for="check2"><span></span>Education</label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="single-checkbox">
-                        <input type="radio" name="check-box" id="check3" />
-                        <label for="check3"><span></span>Restaurant</label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="single-checkbox">
-                        <input type="radio" name="check-box" id="check4" />
-                        <label for="check4"><span></span>Real Estate</label>
-                      </div>
-                    </li>
-                  </ul>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- banner-section end -->
-
-      <!-- features section -->
-      <section class="category-style-two sec-pad-2">
-        <div class="auto-container">
-          <div class="sec-title centred">
-            <span class="text-center">Features</span>
-            <h2>
-              All essential features you'll ever need, <br />
-              Unified in a single platform
-            </h2>
-          </div>
-          <div class="row clearfix">
-            <div class="col-lg-6 col-md-6 col-sm-12 category-block">
-              <div
-                class="category-block-two wow fadeInDown animated animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="inner-box">
-                  <figure class="image-box">
-                    <img src="assets/images/calendar.jpg" alt="" />
-                  </figure>
-                  <div class="lower-content">
-                    <h4><a href="category-details.html">Create Event</a></h4>
-                    <p class="card-text">
-                      Quickly create and set up your event with a user-friendly
-                      interface.
-                    </p>
-                    <a href="#">
-                      <span><i class="fa-solid fa-arrow-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 category-block">
-              <div
-                class="category-block-two wow fadeInDown animated animated"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="inner-box">
-                  <figure class="image-box">
-                    <img src="assets/images/tickets.jpg" alt="" />
-                  </figure>
-                  <div class="lower-content">
-                    <h4>
-                      <a href="category-details.html">Monitor Ticket sales</a>
-                    </h4>
-                    <p class="card-text">
-                      Monitor ticket sales in real time to stay updated on the
-                      progress.
-                    </p>
-                    <a href="#">
-                      <span><i class="fa-solid fa-arrow-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 category-block">
-              <div
-                class="category-block-two wow fadeInDown animated animated"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="inner-box">
-                  <figure class="image-box">
-                    <img src="assets/images/laptop.jpg" alt="" />
-                  </figure>
-                  <div class="lower-content">
-                    <h4>
-                      <a href="category-details.html">Communication tools</a>
-                    </h4>
-                    <p class="card-text">
-                      Send automated email notifications to attendees about
-                      event updates, ticket confirmations, and reminders.
-                    </p>
-                    <a href="#">
-                      <span><i class="fa-solid fa-arrow-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 category-block">
-              <div
-                class="category-block-two wow fadeInDown animated animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="inner-box">
-                  <figure class="image-box">
-                    <img src="assets/images/graph.jpg" alt="" />
-                  </figure>
-                  <div class="lower-content">
-                    <h4>
-                      <a href="category-details.html">Track Participants</a>
-                    </h4>
-                    <p class="card-text">
-                      Access and manage a comprehensive list of registered
-                      attendees for efficient event organization.
-                    </p>
-                    <a href="#">
-                      <span><i class="fa-solid fa-arrow-right"></i></span
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- features section end -->
-
-      <!-- steps section -->
-      <section class="sec-pad">
-        <div class="auto-container steps">
-          <div class="sec-title centred">
-            <span class="text-center">Event Organizer?</span>
-            <h2>
-              Unleash Your Imagination: Create Your dream <br />
-              Event with Our 3-Step Process
-            </h2>
-          </div>
-          <div class="row features">
-            <div class="col-lg-6 col-md-6">
-              <img src="assets/images/steps.png" alt="" class="steps-img" />
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <div class="step">
-                <div class="count">
-                  01
-                  <div class="vertical"></div>
-                </div>
-                <div class="p-2">
-                  <h4 class="step-title">Register An Account</h4>
-                  <p>
-                    Sign Up on the
-                    <span class="frospacee">Frospacee</span> website by
-                    providing your information and completing the sign-up
-                    process
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="count">
-                  02
-                  <div class="vertical"></div>
-                </div>
-                <div class="p-2">
-                  <h4 class="step-title">Create a New Event</h4>
-                  <p>
-                    Create a new event by filling in event details, adding
-                    media, and reviewing before publishing
-                  </p>
-                </div>
-              </div>
-              <div class="step">
-                <div class="count">
-                  03
-                  <div class="vertical"></div>
-                </div>
-                <div class="p-2">
-                  <h4 class="step-title">Publish and Promote Your Event</h4>
-                  <p>
-                    Publish and promote your event by making it live on
-                    <span class="frospacee">Frospacee</span>, sharing the event
-                    link, and utilizing the promotional tools provided by
-                    <span class="frospacee">Frospacee</span>
-                  </p>
-                </div>
-              </div>
-              <center>
-                <div class="more-btn">
-                  <a href="" class="theme-btn-one">Create Your Event</a>
-                </div>
-              </center>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- steps section end -->
-
-      <!-- faq section -->
-
-      <section class="faq-section">
-        <div class="auto-container">
-          <div class="sec-title centred">
-            <h2>
-              <span id="frospacee"> Frospacee</span> FAQs: Everything You Need
-              to Know <br />
-              About Navigating The
-              <span id="frospacee">Frospacee</span> Website
-            </h2>
-          </div>
-          <div class="row clearfix">
-            <div class="col-lg-12 col-md-12 col-sm-12 content-side">
-              <div class="faq-content">
-                <div class="sec-title">
-                  <h2>Frequently Asked Questions.</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing do eumod
-                    tempor incididunt labore dolore magna aliqua enim.
-                  </p>
-                </div>
-                <ul class="accordion-box">
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>How do i register for an event on your website?</h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block active-block">
-                    <div class="acc-btn active">
-                      <div class="icon-outer"></div>
-                      <h5>How can I make payment online?</h5>
-                    </div>
-                    <div class="acc-content current">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>
-                        Can I modify my registration details after submitting
-                        them on the website?
-                      </h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>
-                        How do I access my event tickets or confirmation after
-                        registering online?
-                      </h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>
-                        Is there a mobile app for Frospacee? How do I download
-                        and use it?
-                      </h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>
-                        How do I contact the event organizers for further
-                        assistance or inquiries about the event?
-                      </h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="accordion block">
-                    <div class="acc-btn">
-                      <div class="icon-outer"></div>
-                      <h5>
-                        Can I request a refund for my registration if I am
-                        unable to attend?
-                      </h5>
-                    </div>
-                    <div class="acc-content">
-                      <div class="text">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          eumod tempor incidunt labore dolore magna aliqua enim
-                          minim veniam. quis nostrud exercitation labo ris nis
-                          aliquip comodo consequat duis aute irure.
-                        </p>
-                        <ul class="list-item">
-                          <li>consectetur elit sed do eius</li>
-                          <li>consectetur elit sed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- faq section end -->
-
-      <!-- download-section -->
-      <!-- <section class="download-section">
+      <section class="banner-section style-three">
         <div class="auto-container">
           <div class="row align-items-center clearfix">
-            <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-              <div class="image-box">
-                <figure class="image image-1">
-                  <img src="assets/images/resource/laptop-1.png" alt="" />
-                </figure>
-                <figure class="image image-2 rotate-me">
-                  <img src="assets/images/resource/ball-1.png" alt="" />
-                </figure>
+            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+              <div class="content-box">
+                <h1>
+                  Seamless Ticketing Made Easy:
+                  <span id="frospacee">FROSPACEE</span> - Your Digital Pass to
+                  Incredible Events
+                </h1>
+                <p>
+                  Frospacee give you access to a straight-foward and streamlined
+                  procedure booking tickects with ease, organizing events,
+                  handling sales, and keeping track of attendees
+                </p>
+                <div class="herosection__btns mt-4">
+                  <a href="#" class="theme-btn-one">Create Event</a>
+                  <a href="#" class="sign-up-btn">Learn More &rsaquo;</a>
+                </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 content-column">
-              <div class="content_block_1">
-                <div class="content-box">
-                  <span class="upper-text">Download</span>
-                  <h2>Download Our Android and IOS App for Experience</h2>
-                  <div class="download-btn">
-                    <a href="index.html" class="app-store">
-                      <i class="icon-23"></i>
-                      <span>Download on</span>
-                      <h4>App Store</h4>
-                    </a>
-                    <a href="index.html" class="play-store">
-                      <i class="icon-24"></i>
-                      <span>Get It On</span>
-                      <h4>Google Play</h4>
-                    </a>
-                  </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 inner-column">
+              <img
+                class="home-banner-image"
+                src="assets/images/aboutimg.jpg"
+                alt="banner-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- banner-section end -->
+
+      <!-- statistics section -->
+
+      <div class="statisticsection">
+        <div class="statisticsection__container containers">
+          <div class="statisticsection__item">
+            <p class="statisticsection__item--number headline3">1,801</p>
+            <p class="statisticsection__item--line"></p>
+            <p class="statisticsection__item--title headline4 bluecolor">
+              EVENT HOSTED
+            </p>
+          </div>
+
+          <div class="statisticsection__item">
+            <p class="statisticsection__item--number headline3">9,464</p>
+            <p class="statisticsection__item--line"></p>
+            <p class="statisticsection__item--title headline4 bluecolor">
+              ACTIVE USERS
+            </p>
+          </div>
+
+          <div class="statisticsection__item">
+            <p class="statisticsection__item--number headline3">10,379</p>
+            <p class="statisticsection__item--line"></p>
+            <p class="statisticsection__item--title headline4 bluecolor">
+              TICKETS SOLD
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- statistics section end -->
+
+      <!-- ------------- FEATURE EVENT SECTION --------- -->
+
+      <div class="featureeventsection sec-pad">
+        <div class="featureeventsection__container auto-container containers">
+          <div class="sec-title centred">
+            <span>
+              <img
+                class="calendar-svg"
+                src="assets/images/calendar.svg"
+                alt="calendar logo"
+              />
+              Events in July</span
+            >
+
+            <h2>FEATURED EVENTS</h2>
+          </div>
+          <div class="featureeventsection__list">
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+            <div class="cardevent">
+              <img src="assets/images/eventimg.jpeg" alt="event image" />
+              <div class="card__text">
+                <div class="cardevent__line">
+                  <p class="cardeventevent__month">JUN</p>
+                  <p class="cardeventevent__name">AFROFEST 2023</p>
+                </div>
+                <div class="cardevent__line">
+                  <p class="cardeventevent__day">07</p>
+                  <p class="cardeventevent__adress">
+                    Woodbine Park; Toronto, ON
+                  </p>
+                </div>
+                <div class="cardevent__line">
+                  <p></p>
+                  <p class="cardeventevent__type">AFROFEST Toronto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="largebtn">See more</a>
+        </div>
+      </div>
+
+      <!-- features events section end -->
+
+      <!-- category-section -->
+
+      <section class="splide category-section centred sec-pad">
+        <div class="auto-container">
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev">
+              <span>&larr;</span>
+            </button>
+            <button class="splide__arrow splide__arrow--next">&rarr;</button>
+          </div>
+          <div class="sec-title">
+            <span>Categories</span>
+            <h2>Explore by Category</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod
+              tempor incididunt labore <br />dolore magna aliqua enim.
+            </p>
+          </div>
+
+          <div class="splide__track">
+            <div class="splide__list">
+              <div class="splide__slide eventcategorysection__item headline4">
+                <img src="assets/images/categoryeventimg.jpeg" alt="" />
+                <p>Music</p>
+              </div>
+
+              <div class="splide__slide eventcategorysection__item headline4">
+                <img src="assets/images/categoryeventimg.jpeg" alt="" />
+                <p>Performing & Visual arts</p>
+              </div>
+
+              <div class="splide__slide eventcategorysection__item headline4">
+                <img src="assets/images/categoryeventimg.jpeg" alt="" />
+                <p>Food & Drinks</p>
+              </div>
+              <div class="splide__slide eventcategorysection__item headline4">
+                <img src="assets/images/categoryeventimg.jpeg" alt="" />
+                <p>Performing & Visual arts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- category-section end -->
+
+      <!-- testtimonial section -->
+
+      <div class="testimonial sec-pad-2">
+        <div class="auto-container containers">
+          <div class="sec-title centred">
+            <span> Review & Testimonials </span>
+            <h2>See what our users are saying about us</h2>
+          </div>
+          <div class="testimonial__list">
+            <div class="testimonial__item">
+              <p class="body1 testimonial__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                incidunt distinctio ratione, ex illum commodi sint laudantium
+                quos omnis hic! Corporis aperiam, voluptate qui deleniti quasi
+                enim veritatis hic odio?
+              </p>
+              <div class="testimonial__infoperson">
+                <img src="assets/images/person.jpg" alt="person's image" />
+                <div>
+                  <p class="headline4 bluecolor">SARAH ANDERSON</p>
+                  <p class="body1 graycolor5">Marketing Executive</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial__item">
+              <p class="body1 testimonial__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                incidunt distinctio ratione, ex illum commodi sint laudantium
+                quos omnis hic! Corporis aperiam, voluptate qui deleniti quasi
+                enim veritatis hic odio?
+              </p>
+              <div class="testimonial__infoperson">
+                <img src="assets/images/person.jpg" alt="person's image" />
+                <div>
+                  <p class="headline4 bluecolor">EMILY CHEN</p>
+                  <p class="body1 graycolor5">Marketing Executive</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial__item">
+              <p class="body1 testimonial__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                incidunt distinctio ratione, ex illum commodi sint laudantium
+                quos omnis hic! Corporis aperiam, voluptate qui deleniti quasi
+                enim veritatis hic odio?
+              </p>
+              <div class="testimonial__infoperson">
+                <img src="assets/images/person.jpg" alt="person's image" />
+                <div>
+                  <p class="headline4 bluecolor">JIMMY FRANCIS</p>
+                  <p class="body1 graycolor5">Marketing Executive</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section> -->
-      <!-- download-section end -->
+      </div>
+
+      <!-- testimoniail section end -->
 
       <!-- subscribe-section -->
-      <!-- <section class="subscribe-section">
-        <div
-          class="pattern-layer"
-          style="background-image: url(assets/images/shape/shape-9.png)"
-        ></div>
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-lg-6 col-md-6 col-sm-12 text-column">
-              <div class="text">
-                >
-                <h2>Subscribe to Newsletter</h2>
-                <p>and receive new ads in inbox</p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 form-column">
-              <form action="contact.html" method="post" class="subscribe-form">
-                <div class="form-group">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Input your email address"
-                    required=""
-                  />
-                  <button type="submit" class="theme-btn-one">
-                    Subscribe Now
-                  </button>
+
+      <section class="subscribe-section">
+        <div class="">
+          <div class="newsletter">
+            <div class="containers">
+              <div class="newsletter__container">
+                <div class="text">
+                  <h2>Join Frospacee Community</h2>
+                  <p>
+                    Stay updated on latest event by subscribing to our
+                    newsletter. Get the latest updates and be part of our
+                    growing community
+                  </p>
                 </div>
-              </form>
+                <div class="newsletter__form form">
+                  <form
+                    action="contact.html"
+                    method="post"
+                    class="subscribe-form"
+                  >
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Input your email address"
+                        required=""
+                      />
+                      <button type="submit" class="theme-btn-one">
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
+
       <!-- subscribe-section end -->
 
       <!-- main-footer -->
@@ -735,43 +580,6 @@
           <div class="auto-container">
             <div class="widget-section">
               <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                  <div class="footer-widget logo-widget">
-                    <figure class="footer-logo">
-                      <a href="index.html"
-                        ><img src="assets/images/logo-white.png" alt=""
-                      /></a>
-                    </figure>
-                    <div class="text">
-                      <p>
-                        Lorem ipsum dolor amet consetetur adi pisicing elit sed
-                        eiusm tempor in cididunt ut labore dolore magna aliqua
-                        enim ad minim venitam
-                      </p>
-                    </div>
-                    <ul class="social-links clearfix">
-                      <li>
-                        <a href="index.html"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="index.html"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="index.html"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-
-                      <li>
-                        <a href="index.html"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                   <div class="footer-widget links-widget ml-70">
                     <div class="widget-title">
@@ -802,6 +610,25 @@
                         <li><a href="index.html">Booking</a></li>
                         <li><a href="index.html">Online Promotion</a></li>
                         <li><a href="index.html">Developers</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                  <div class="footer-widget links-widget ml-70">
+                    <div class="widget-title">
+                      <h3>Explore More</h3>
+                    </div>
+                    <div class="widget-content">
+                      <ul class="links-list clearfix">
+                        <li><a href="index.html">How it works</a></li>
+                        <li><a href="index.html">Download App</a></li>
+                        <li><a href="index.html">Event Promoter</a></li>
+                        <li><a href="index.html">Sell tickects</a></li>
+                        <li><a href="index.html">Event Organizer</a></li>
+                        <li>
+                          <a href="index.html">Nonprofits & Fundraisers</a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -855,7 +682,7 @@
 
       <!--Scroll to top-->
       <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa-solid fa-long-arrow-up"></span>
+        <span class="far fa-long-arrow-up"></span>
       </button>
     </div>
 
@@ -870,6 +697,23 @@
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/scrollbar.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide(".splide", {
+        perPage: 3,
+        breakpoints: {
+          1000: {
+            perPage: 2,
+          },
+          500: {
+            perPage: 1,
+          },
+        },
+        rewind: true,
+      });
+
+      splide.mount();
+    </script>
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
