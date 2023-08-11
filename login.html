@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <title>FROSPACEE</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet" />
+    <link href="assets/css/flaticon.css" rel="stylesheet" />
+    <link href="assets/css/owl.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/nice-select.css" rel="stylesheet" />
+    <link href="assets/css/color.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <!-- page wrapper -->
+  <body>
+    <div class="boxed_wrapper">
+      <!-- preloader -->
+      <div class="preloader"></div>
+      <!-- preloader -->
+
+      <div class="login-container">
+        <div class="row clearfix">
+          <div class="col-lg-7 col-md-6">
+            <div class="login-section">
+              <div class="login-form">
+                <h2>
+                  Sign in to
+                  <a href="index.html"><span id="frospacee">Frospacee</span></a>
+                </h2>
+                <p>Please fill in your correct details in the fields below</p>
+                <form>
+                  <label for="email">EMAIL ADDRESS</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="username"
+                    placeholder=" email@email.com"
+                    required
+                  />
+
+                  <label for="password">PASSWORD</label>
+                  <div class="password-toggle">
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder=" password"
+                      required
+                    />
+                    <img
+                      class="toggle-icon"
+                      src="assets/images/login/hiddeye.png"
+                      alt="Toggle Password"
+                    />
+                  </div>
+
+                  <button type="submit">SIGN IN</button>
+
+                  <div class="forgot-password">
+                    <a href="#" style="text-decoration: none"
+                      >Forgot Password?</a
+                    >
+                  </div>
+                </form>
+
+                <div class="line"><span>Or Log in With</span></div>
+
+                <div class="mini-images">
+                  <a href="#"
+                    ><img src="assets/images/login/face.png" alt="Image 1"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/images/login/gmail.png" alt="Image 2"
+                  /></a>
+                  <a href="#"
+                    ><img src="assets/images/login/apple.png" alt="Image 3"
+                  /></a>
+                </div>
+
+                <div class="signup-link">
+                  Don't have an account yet?
+                  <a href="signup.html" style="text-decoration: none"
+                    >Sign up</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="image-section">
+              <a href="index.html"
+                ><img
+                  src="assets/images/login/12.png"
+                  alt="a"
+                  style="height: 700px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Scroll to top-->
+      <!-- <button class="scroll-top scroll-to-target" data-target="html">
+        <span class="fa-solid fa-long-arrow-up"></span>
+      </button> -->
+    </div>
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+    <script>
+      const passwordField = document.getElementById("password");
+      const toggleIcon = document.querySelector(".toggle-icon");
+
+      toggleIcon.addEventListener("click", function () {
+        if (passwordField.type === "password") {
+          passwordField.type = "text";
+          toggleIcon.src = "assets/images/login/eye.png";
+        } else {
+          passwordField.type = "password";
+          toggleIcon.src = "assets/images/login/hiddeye.png";
+        }
+      });
+    </script>
+  </body>
+  <!-- End of .page_wrapper -->
+</html>
